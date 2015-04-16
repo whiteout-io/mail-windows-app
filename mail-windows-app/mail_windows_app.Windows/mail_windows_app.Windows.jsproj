@@ -61,9 +61,6 @@
     <Content Include="images\storelogo.png" />
     <None Include="mail_windows_app_TemporaryKey.pfx" />
   </ItemGroup>
-  <ItemGroup>
-    <SDKReference Include="Microsoft.WinJS.2.0, Version=1.0" />
-  </ItemGroup>
   <Import Project="..\mail_windows_app.Shared\mail_windows_app.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment
